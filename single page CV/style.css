@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 900px; 
+}
+hr{
+    width: 75%;
+    border: 1px solid black;
+}
+
+.address{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    
+}
+.address h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+
+}
+#subtitle{
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#address{
+    line-height: 1.3rem;
+
+}
+#skills{
+
+    margin-bottom: 20px;
+    padding-top: 10px;
+    line-height: 1.3rem;
+}
+#skill{
+    
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.edu{
+    margin-bottom: 10px;
+    line-height: 1.3rem;
+}
+.edu #edu-span{
+    padding-bottom: 10px;
+    color: green;
+}
+#school-span{
+    color: rgb(4, 163, 254) ;
+}
+#exp-span{
+    color: green;
+}
+
+#location-span{
+    color: rgb(4, 163, 254);
+}
+
+#exp-2-span{
+    color: rgb(4, 163, 254);
+}
+
+#across-title{
+    color: green;
+}
+#across{
+    line-height: 1.5rem;
+}
+
+
